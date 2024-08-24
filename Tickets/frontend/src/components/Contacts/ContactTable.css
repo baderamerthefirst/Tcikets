@@ -1,0 +1,48 @@
+/* ContactTable.css */
+.contact-container{
+  padding: 100px 0 5px 0;
+  .contact-container h1 {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #333; 
+  margin-bottom: 10px; 
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table th span {
+  font-size: 12px;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.table input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  
+}

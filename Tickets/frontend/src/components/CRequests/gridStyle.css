@@ -1,0 +1,54 @@
+.request-table-container {
+  width: 95%;
+  margin: auto;
+  
+  
+}
+
+.ag-theme-alpine {
+  /* padding: 0 0 30px   0;  */
+  animation: fadeIn 0.3s ease-in-out ;
+}
+
+.ag-header {
+  background-color: #333; /* Dark background for better contrast */
+  color: white; /* Header text color */
+  font-weight: bold; /* Header text bold */
+}
+
+/* Body row styles */
+.ag-body .ag-row-odd {
+  background-color: #3030302f; /* Odd row background color */
+}
+
+.ag-header-cell-text {
+  color: white; /* Header text color */
+  font-weight: bold; /* Header text bold */
+}
+/* Pagination panel styles */
+.ag-paging-panel {
+  border-radius: 5px; /* Rounded corners for pagination panel */
+  background-color: #3030302f; /* Pagination panel background color */
+  padding: 15px; /* Padding for pagination panel */
+  margin-top: 10px; /* Top margin for pagination panel */
+  /* color: white; Text color for pagination panel */
+}
+
+/* Hover effect on rows */
+.ag-body .ag-row:hover {
+  background-color: #55555563; /* Background color on row hover */
+  /* cursor: pointer; Cursor style on row hover */
+}
+
+
+
+.ag-cell{
+ 
+  user-select: auto !important; /* Standard */
+}
+
+.ag-unselectable {
+  -moz-user-select: auto;
+  -webkit-user-select: auto;
+  user-select: auto;
+}

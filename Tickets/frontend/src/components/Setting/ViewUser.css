@@ -1,0 +1,27 @@
+.users-container{
+    /* background-color: black; */
+    margin: auto;
+}
+
+
+  
+  .activate {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .deactivate {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .reset {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .export-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  

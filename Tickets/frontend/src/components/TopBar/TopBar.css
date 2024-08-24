@@ -1,0 +1,67 @@
+/* TopBar.css */
+
+#topBar {
+  background-color: #333; /* Darker gray background */
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  
+  animation: slideDown 0.5s ease-in-out forwards; /* Slide-down animation */
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#topBar h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#topBar_tabs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-right: 40px ;
+  /* font-size: 16px; Larger font size for tabs */
+}
+
+#topBar_tabs li {
+  /* margin-left: 20px; */
+}
+
+#topBar_tabs a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px; /* Increased padding for better click area */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.2s ease-in-out;
+}
+
+#topBar_tabs a:hover {
+  background-color: #2980b9; /* Light blue hover effect */
+}
+
+#topBar_tabs li:first-child {
+  margin-left: 0; /* Remove margin for the first tab */
+}
+
+/* Optional styling for a more distinct Logout button */
+#topBar_tabs li:last-child a {
+  color: #dc3545; /* Red color */
+}

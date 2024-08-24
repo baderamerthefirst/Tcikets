@@ -1,0 +1,74 @@
+.create-user-container {
+    padding: 20px ;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .create-user-form .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .create-user-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .create-user-form input[type="text"],
+  .create-user-form input[type="password"],
+  .create-user-form select {
+    /* width: 100%; */
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+        padding: 10px 15px;
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        font-size: 14px;
+  }
+  
+  .create-user-form .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-user-form .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #000000;
+    /* padding: 10px; */
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: #f1f1f1;
+    background-color: rgb(0, 128, 0);
+    /* padding: 10px; */
+    /* margin: auto; */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    /* cursor: pointer; */
+  }
+  

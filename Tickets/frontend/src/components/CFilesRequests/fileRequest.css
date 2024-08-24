@@ -1,0 +1,69 @@
+.fr-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 40px;
+  background-color: #f1f1f1f3;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  animation: zoomIn 0.3s ease-in-out forwards;
+  width: 500px; /* Added width for the container */
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.status-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.status-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.status-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.status-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.filter-select,
+.filter-input {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.grid-container {
+  height: 550px;
+  width: 100%;
+}
+
+.export-button {
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,9 @@
+/* UserTable.css */
+
+/* Custom styles for the DataGrid */
+.custom-data-grid .custom-header {
+    /* Change header background color */
+    background-color: #333;
+    color: white;
+  }
+  

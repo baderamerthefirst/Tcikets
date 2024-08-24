@@ -1,0 +1,74 @@
+/* Login.css */
+
+/* Set the font family and size for the whole document */
+* {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style the login container */
+  .login-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+  }
+  
+  /* Style the login form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the form group */
+  .form-group {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the form label */
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the form input */
+  .form-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Style the login button */
+  .login-button {
+    width: 80%;
+    padding: 10px;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:40px ;
+  }
+  
+  /* Add a hover effect for the login button */
+  .login-button:hover {
+    background-color: #03A55C;
+  }
+  
+  /* Style the error message */
+  .error-message {
+    width: 80%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,83 @@
+/* TestsTable.css */
+.tests-table-container {
+    margin: 20px 0;
+  }
+  
+  .tests-table-container h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tests-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tests-table th,
+  .tests-table td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  
+  .tests-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .tests-table th span {
+    font-size: 12px;
+  }
+  
+  .tests-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tests-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .tests-table input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .pagination-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  

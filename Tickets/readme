@@ -1,0 +1,98 @@
+# Tickets
+
+Tickets is a system change management application designed to manage requests, save files, and handle file requests efficiently. This project consists of a React frontend, a Node.js backend, and an Oracle database.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies](#technologies)
+- [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Environment Variables](#environment-variables)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Create and manage system change tickets.
+- Attach files to requests.
+- Track and retrieve file requests.
+- User-friendly interface for managing tickets.
+
+## Technologies
+
+- **Frontend:** React
+- **Backend:** Node.js, Express
+- **Database:** Oracle
+- **Containerization:** Docker, Docker Compose
+
+## Setup
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- An Oracle Database (not containerized, running on your local network)
+
+### Installation
+
+1. **Clone the repository:**
+
+   git clone https://github.com/yourusername/Tickets.git
+   cd Tickets
+   Backend Setup:
+
+Navigate to the backend directory:
+
+cd backend
+Install the dependencies:
+
+npm install
+Frontend Setup:
+
+Navigate to the frontend directory:
+
+cd ../frontend
+Install the dependencies:
+
+npm install
+Running the Application
+Docker Compose:
+
+To build and run the application, use Docker Compose:
+
+docker-compose up --build
+This will start both the frontend and backend services.
+
+Access the Application:
+
+Frontend: http://localhost:3000
+Backend: http://localhost:5000
+Environment Variables
+Create a .env file in the backend directory with the following contents:
+
+env
+
+DB_USER=c##a_user
+DB_PASSWORD=password
+DB_HOST=192.168.1.241
+DB_PORT=1521
+DB_SERVICE=xe
+These variables are used to connect the backend to the Oracle database.
+
+Usage
+Navigate to the frontend in your browser to create and manage system change tickets.
+The backend API handles requests related to tickets and file management.
+Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
+
+License
+This project is licensed under the MIT License.
+
+Feel free to customize this further to fit your specific needs!

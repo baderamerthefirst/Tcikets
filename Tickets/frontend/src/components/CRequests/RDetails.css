@@ -1,0 +1,118 @@
+.request-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.request-details-container h1{
+  
+font-size: 1.5rem; 
+font-weight: bold;
+color: #333; 
+margin-bottom: 10px; 
+
+}
+
+
+.label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: calc(100% - 140px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input[readonly] {
+  background-color: #f0f0f0;
+}
+[readonly] {
+  background-color: #f0f0f0;
+}
+.sos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.export-button{
+  background-color: #28a745;
+  color: #fff;
+}
+
+
+.button:hover {
+    filter: brightness(0.9); /* Darken the background on hover */
+  }
+
+
+  .button-group{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+  .add-new-button{
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    /* display: none; */
+
+    
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
